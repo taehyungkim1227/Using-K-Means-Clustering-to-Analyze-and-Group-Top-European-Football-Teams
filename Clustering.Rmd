@@ -1,0 +1,100 @@
+---
+title: "Clustering Project"
+output: pdf_document
+date: "2023-02-10"
+---
+
+# 1. Import Package(s) and Dataset
+
+### dataset google sheets link: 
+https://docs.google.com/spreadsheets/d/1gpq2NdKtCitcjUuaP7FPSYnUu3GnOfxy6njsmNUOCMY/edit#gid=1726730019
+
+### Reference Blog Post:
+https://uc-r.github.io/kmeans_clustering
+
+```{r import packages}
+library(tidyverse)
+library(cluster)
+library(factoextra)
+```
+
+
+```{r import dataset and normalizing the data}
+df <- read_csv("clustering_df.csv") 
+
+colnames(df) <- c('Team','Shots_pg','Shots_OT_pg','Dribbles_pg','Fouled_pg','Goals_Conceded_pg')
+
+df$Team <- gsub('[0-9.]', '', df$Team)
+
+# first column as row name
+df <- df %>% column_to_rownames(var="Team")
+
+# scale data (mean = 0, sd = 1)
+df <- scale(df)
+
+df
+```
+
+
+# 2. K-Means Clustering
+
+```{r build the k-means clustering model}
+k_cluster <- kmeans(df, centers = 3, nstart = 25)
+
+print(str(k_cluster))
+
+print(k_cluster)
+```
+
+```{r visualize the k-means clusters}
+fviz_cluster(k_cluster, df)
+```
+```{r further visualizing the k-means clusters}
+df %>%
+    as_tibble() %>%
+    mutate(Cluster = k_cluster$cluster, Team = row.names(df)) %>% 
+    relocate(Team, Cluster) %>%
+    ggplot(aes(Shots_pg, Goals_Conceded_pg, color = factor(Cluster), label = Team)) +
+    geom_text()
+```
+
+
+```{r defining a function that visualizes clusters}
+visual_function <- function(number) {
+  df %>%
+    as_tibble() %>%
+    mutate(Cluster = k_cluster$cluster, Team = row.names(df)) %>% 
+    relocate(Team, Cluster) %>%
+    filter(Cluster == number) %>% 
+    ggplot(aes(Shots_pg, Goals_Conceded_pg, label = Team)) +
+    geom_text()
+}
+```
+
+# Cluster Number 2
+```{r visualizing cluster number 2 - the teams with the highest shots per game}
+k_cluster$centers
+
+visual_function(2)
+```
+
+
+# Cluster Number 3
+
+```{r visualizing cluster number 3 - teams with the second most number of shots}
+k_cluster$centers
+
+visual_function(3)
+```
+
+
+# Cluster Number 1
+
+```{r visualizing cluster number 1 - teams with the least number of shots}
+k_cluster$centers
+
+visual_function(1)
+```
+
+
+
