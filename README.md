@@ -14,7 +14,7 @@
 
 ### Part 3-1. Cluster Number 2 - The Strongest Teams
 
-#### Cluster Number two has the largest values of Shots per Game (1.4461), Shots on target per game (1.4212), Dribbles per Game (0.8490) while having the lowest values of Fouled per Game (-0.7276) and Goals Conceded per game (-0.7819). Keep in mind these are all standardized values. 
+#### Cluster Number two has the largest values of Shots per Game (1.4461), Shots on target per game (1.4212), Dribbles per Game (0.8490) while having the lowest values of Fouled per Game (-0.7276) and Goals Conceded per game (-0.7819). Keep in mind these are all standardized values. Most of the teams in this cluster are traditionally strong and globally well known teams such as Real Madrid, Barcelona, Arsenal, Manchester City, Liverpool, and Bayern Munich. Some surprising teams in this cluster include Brighton (known for their attacking football under ex-Udinese manager De Zerbi, Brighton excitingly made it to this cluster with a high shots per game stat compared to other clusters but simultaneously with a rather large goals conceded per game within this cluster) and Manchester United (a traditionally well known big team, but has low shots per game and rather high goals conceded per game within this cluster).
 
 ### Part 3-2. Cluster Number 3
 
@@ -27,7 +27,10 @@
 ## Part 4. Conclusion and References
 
 #### -b
--b
--ab
+#### -b
+#### -b
+#### -b
+#### -b
+#### -b
 
 #### References for this project include the following pages:
