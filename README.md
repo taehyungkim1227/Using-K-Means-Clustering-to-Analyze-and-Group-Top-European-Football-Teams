@@ -16,9 +16,9 @@
 
 #### Cluster Number two has the largest values of Shots per Game (1.4461), Shots on target per game (1.4212), Dribbles per Game (0.8490) while having the lowest values of Fouled per Game (-0.7276) and Goals Conceded per game (-0.7819). Keep in mind these are all standardized values. Most of the teams in this cluster are traditionally strong and globally well known teams such as Real Madrid, Barcelona, Arsenal, Manchester City, Liverpool, and Bayern Munich. Some surprising teams in this cluster include Brighton (known for their attacking football under ex-Udinese manager De Zerbi, Brighton excitingly made it to this cluster with a high shots per game stat compared to other clusters but simultaneously with a rather large goals conceded per game within this cluster) and Manchester United (a traditionally well known big team, but has low shots per game and rather high goals conceded per game within this cluster).
 
-### Part 3-2. Cluster Number 3
+### Part 3-2. Cluster Number 3 - Mid to Upper-Mid Table Teams
 
-#### Cluster Number three has the largest value of Fouled per Game (0.7594). Keep in mind this is a standardized value. 
+#### Cluster Number three has the largest value of Fouled per Game (0.7594). Keep in mind this is a standardized value. It is interesting that most of these teams tend to have a high shots per game stat with high goals conceded per game. Teams in this cluster seem to have varying characteristics, which is interesting. Teams like Girona for instead, scored a lot but also conceded a lot in the last season of the La Liga. VfB Stuttgart scored a lot of goals compared to other teams in similar relegation threatened positions in the bottom of the table of the German Bundesliga, but also conceded a fair amount causing their rather poor goal difference statistic. RB Leipzig . On the far left corner of the graph, Spanish team Mallorca
 
 ### Part 3-3. Cluster Number 1
 
