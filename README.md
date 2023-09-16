@@ -12,18 +12,22 @@
 
 #### For this part, I used the kmeans() function in R. The number of clusters ('centers' value) was set to 3 for effective analysis (too many clusters would prevent me from diving deeper into each cluster in terms of observation and analysis) and the 'nstart' variable was chosen to be 25, which is commonly used. The clusters were divided into sizes of 22, 11, and 25 teams each. The main variables of observation in this project are Goals Conceded per game (y) and Shots per game (x). 
 
-### Part 3-1. Cluster Number 2
+### Part 3-1. Cluster Number 2 - The Strongest Teams
 
-####
+#### Cluster Number two has the largest values of Shots per Game (1.4461), Shots on target per game (1.4212), Dribbles per Game (0.8490) while having the lowest values of Fouled per Game (-0.7276) and Goals Conceded per game (-0.7819). Keep in mind these are all standardized values. 
 
 ### Part 3-2. Cluster Number 3
 
-####
+#### Cluster Number three has the largest value of Fouled per Game (0.7594). Keep in mind this is a standardized value. 
 
 ### Part 3-3. Cluster Number 1
 
-####
+#### Cluster Number one has the lowest Shots per Game (-0.6677), Shots on target per game (-0.7380), Dribbles per Game (-0.6652), while having the largest value of Goals Conceded per Game (0.7782). Keep in mind these are all standardized values. 
 
 ## Part 4. Conclusion and References
 
-####
+#### -b
+-b
+-ab
+
+#### References for this project include the following pages:
