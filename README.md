@@ -20,17 +20,11 @@
 
 #### Cluster Number three has the largest value of Fouled per Game (0.7594). Keep in mind this is a standardized value. It is interesting that most of these teams tend to have a high shots per game stat with high goals conceded per game. Teams in this cluster seem to have varying characteristics, which is interesting. Teams like Girona for instead, scored a lot but also conceded a lot in the last season of the La Liga. VfB Stuttgart scored a lot of goals compared to other teams in similar relegation threatened positions in the bottom of the table of the German Bundesliga, but also conceded a fair amount causing their rather poor goal difference statistic. RB Leipzig scored the most amount of goals in the Bundesliga outside of Dortmund and Bayern Munich but conceded the second most number of goals among the top five teams in the Bundesliga. On the far left corner of the graph, Spanish team Mallorca scored the sixth least amount of goals in the Spanish La Liga and conceded the 8th least amount of goals too, displaying a rather defensive yet offensively rather blunt style of football. 
 
-### Part 3-3. Cluster Number 1 - The Underdogs (with their own Merits)
+### Part 3-3. Cluster Number 1 - The Underdogs (but with their own Merits)
 
-#### Cluster Number one has the lowest Shots per Game (-0.6677), Shots on target per game (-0.7380), Dribbles per Game (-0.6652), while having the largest value of Goals Conceded per Game (0.7782). Keep in mind these are all standardized values. Most teams in this cluster displayed rather poor performorances last season, such as in the case of Leicester City and Southampton, both relegated to the second tier of football in England. Some teams do stand out however, such as Union Berlin, a team that was promoted to the German Bundesliga only 4 years ago but made it to the UEFA Champions League in the 2022-2023 season. Also Fulham, although in this cluster, 
+#### Cluster Number one has the lowest Shots per Game (-0.6677), Shots on target per game (-0.7380), Dribbles per Game (-0.6652), while having the largest value of Goals Conceded per Game (0.7782). Keep in mind these are all standardized values. Most teams in this cluster displayed rather poor performorances last season, such as in the case of Leicester City and Southampton, both relegated to the second tier of football in England. Some teams do stand out however, such as Union Berlin, a team that was promoted to the German Bundesliga only 4 years ago but made it to the UEFA Champions League in the 2022-2023 season. Also Fulham, although in this underdog cluster, made 10th place in the Premier League, an impressive run from a newly promoted team. 
 
-## Part 4. Conclusion and References
+## Part 4. Reference
 
-#### -b
-#### -b
-#### -b
-#### -b
-#### -b
-#### -b
+#### -https://uc-r.github.io/kmeans_clustering
 
-#### References for this project include the following pages:
